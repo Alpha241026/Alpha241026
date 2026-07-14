@@ -15,7 +15,7 @@
 {
   "name": "Alpha42",
   "role": "BTech CSE Student (Year 2)",
-  "core_focus": "Backend Infrastructure",
+  "core_focus": ["Backend Infrastructure", "Problem Solving"],
   "philosophy": "Build robust, stateless backends that handle edge cases natively."
 }
 ```
