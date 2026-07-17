@@ -1,0 +1,29 @@
+name: Fetch GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0,12 * * *" # Runs automatically twice a day
+  workflow_dispatch: # Gives you a button to trigger it manually
+
+jobs:
+  update-images:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants the bot permission to push to your repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download Stats Images
+        run: |
+          # The -f flag is crucial: if Vercel hits a rate limit and sends an error code, 
+          # curl will fail the step instead of downloading a broken image file.
+          curl -f -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=Alpha241026&show_icons=true&theme=tokyonight&hide_border=true"
+          curl -f -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=Alpha241026&theme=tokyonight&hide_border=true"
+          
+      - name: Commit and Push Images
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update github stats"
+          file_pattern: "*.svg"
