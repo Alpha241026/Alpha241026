@@ -16,6 +16,7 @@
   "name": "Alpha42",
   "role": "BTech CSE Student (Year 2)",
   "core_focus": ["Backend Infrastructure", "Problem Solving"],
+  "concepts": ["DSA", "OOP", "DBMS", "API Design"],
   "philosophy": "Build robust, stateless backends that handle edge cases natively."
 }
 ```
