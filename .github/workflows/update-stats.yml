@@ -17,10 +17,8 @@ jobs:
 
       - name: Download Stats Images
         run: |
-          # The -f flag is crucial: if Vercel hits a rate limit and sends an error code, 
-          # curl will fail the step instead of downloading a broken image file.
           curl -f -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=Alpha241026&show_icons=true&theme=tokyonight&hide_border=true"
-          curl -f -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=Alpha241026&theme=tokyonight&hide_border=true"
+          curl -f -o github-streak.svg "https://streak-stats.demolab.com/?user=Alpha241026&theme=tokyonight&hide_border=true"
           
       - name: Commit and Push Images
         uses: stefanzweifel/git-auto-commit-action@v5
