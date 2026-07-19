@@ -34,7 +34,7 @@
 
   "core_focus": ["Backend Infrastructure", "Problem Solving"],
 
-  "concepts: ["OOP", "DSA", "DBMS"],
+  "concepts": ["OOP", "DSA", "DBMS"],
 
   "philosophy": "Build robust, stateless backends that handle edge cases natively."
 
