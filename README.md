@@ -131,11 +131,11 @@
 
 
 <p align="left">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Alpha241026&show_icons=true&theme=tokyonight&hide_border=true&v=1" alt="Stats" height="180px" />
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alpha241026&theme=tokyonight&hide_border=true&v=1" alt="Streak" height="180px" />
-
+  
+  <img src="./profile/stats.svg" alt="Stats" height="180px" />
+  
+  <img src="./profile/streak.svg" alt="Streak" height="180px" />
+  
 </p>
 
 
