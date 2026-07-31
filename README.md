@@ -45,13 +45,13 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code">
-  <img src="https://img.shields.io/badge/N8N-FF6C37?style=flat&logo=n8n&logoColor=white" alt="N8N">
 </p>
 
 **Incoming Stack**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/N8N-FF6C37?style=flat&logo=n8n&logoColor=white" alt="N8N">
 </p>
 
 **Discontinued**
