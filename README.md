@@ -47,13 +47,6 @@
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code">
 </p>
 
-**Incoming Stack**
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/N8N-FF6C37?style=flat&logo=n8n&logoColor=white" alt="N8N">
-</p>
-
 **Discontinued**
 
 <p align="left">
